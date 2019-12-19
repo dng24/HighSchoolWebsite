@@ -1,0 +1,28 @@
+p {
+	font-size: 1.25em;
+	line-height: 150%;
+	margin: 0;
+	padding: 1% 8% 1% 8%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1% 8% 1% 8%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #aaaaaa;
+}
+
+th {
+  background-color: #00d9ff;
+  color: #ffffff;
+}
