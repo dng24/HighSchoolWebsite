@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Derek Ng | Academics</title>
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
@@ -32,18 +32,18 @@
 			</div>
 		</nav>
 		
-		<div id="title">
-			<br><br>
+		<div class="acaBckgd title darkenImg darkenText">
+			<br><br><br><br>
 			<h1>Academics</h1>
-			<br><br><br>
+			<br><br><br><br><br>
 		</div>
 		
 		<div class="pLeft">
 			<img src="images/massacademy.jpg" alt="Mass Academy"><!-- src: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/85_Prescott_St%2C_Worcester_MA.jpg/1280px-85_Prescott_St%2C_Worcester_MA.jpg -->
-			<p>Mass Academy is a magnet school for juniors and seniors that is a part of WPI in Worcester, MA. It was created in 1992 by the Massachusetts 
+			<p>Mass Academy is a magnet school for juniors and seniors that is a part of Worcester Polytechnic Institute in Worcester, MA. It was created in 1992 by the Massachusetts 
 			State Legislature. Juniors go to school at 85 Prescott Street, while seniors take college classes at WPI. 
 			Each class has about fifty <a href="http://www.massacademy.org/students/" target="_blank">students</a>. During junior year, 
-			the class is divided into three sections: Advanced Spanish, French, and Intermediate Spanish. A normal school day for juniors go from 7:45 am to 2:45 pm. 
+			the class is divided into three sections: Advanced Spanish, French, and Intermediate Spanish. A normal school day for juniors is from 7:45 am to 2:45 pm. 
 			On most days, there are also extracurriculars that last until 4:30, such as CAD, <a href="http://enablingthefuture.org/" target="_blank">e-NABLE</a>, 
 			programming team, robotics, mock trial, and more. The extracurriculars change every term. Students begin school in mid-August, 
 			but they get out for summer break at around Memorial Day. Instead of a February and April break, students get an October and March break. 
@@ -52,19 +52,68 @@
 			If you have any questions, please feel free to email me at <a href="mailto:djng@wpi.edu" target="_top">djng@wpi.edu</a>.</p>
 		</div>
 		
-		<div id="classList">
-			<h3>Classes at Mass Academy</h3>
-			<ul>
-				<li><a href="computerScience.html">Computer Science</a></li>
-				<li><a href="humanities.html">Humanities</a></li>
-				<li><a href="math.html">Math</a></li>
-				<li><a href="physics.html">Physics</a></li>
-				<li><a href="spanish.html">Spanish</a></li>
-				<li><a href="STEM_I.html">STEM I</a></li>
-				<li><a href="STEM_II.html">STEM II</a></li>
-				<li><a href="STW.html">STW</a></li>
-			</ul>
-			<br><br><br>
+		<h3>Classes at Mass Academy</h3>
+		<div id="bigDiv">
+			<div id="icons">
+				<p>Computer Science</p>
+				<a href="computerScience.html"><img src="images/csIcon.jpg" alt="CS"></a> <!-- https://www.ncl.ac.uk/media/wwwnclacuk/pressoffice/images/COMPUTING-SCIENCE-standard.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='computerScience.html'" />
+				</form>
+			</div><div id="icons">
+				<p>Humanities</p>
+				<a href="humanities.html"><img src="images/humIcon.jpg" alt="Hum"></a> <!-- https://steemitimages.com/DQmQJuNubq5s7SYjEVdryjiycFmkQ3XP3UBT4PtstwUDvPb/0b56a150c773d44571f14552523ea764.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='humanities.html'" />
+				</form>
+			</div><div id="icons">
+				<p>Math</p>
+				<a href="math.html"><img src="images/mathIcon.jpg" alt="Math"></a> <!-- http://toolsformoney.com/free_investing_calcualtors.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='math.html'"  />
+				</form>
+			</div><div id="icons">
+				<p>Physics</p>
+				<a href="physics.html"><img src="images/physicsIcon.jpg" alt="Physics"></a> <!-- https://ocw.mit.edu/courses/physics/dhp_8.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='physics.html'"  />
+				</form>
+			</div>
+		</div>
+		<div id="bigDiv">
+			<div id="icons">
+				<p>Spanish</p>
+				<a href="spanish.html"><img src="images/spanishIcon.jpg" alt="Spanish"></a> <!-- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5XHWKRFXqR-n9wVMWQ-NScUGN9Ik2KcivK5U_dZtU96x70k35 -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='spanish.html'" />
+				</form>
+			</div><div id="icons">
+				<p>STEM I</p>
+				<a href="STEM_I.html"><img src="images/stemIIcon.jpg" alt="STEM I"></a> <!-- https://images.pexels.com/photos/9198/nature-sky-twilight-grass-9198.jpg?auto=compress&cs=tinysrgb&h=350 -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='STEM_I.html'" />
+				</form>
+			</div><div id="icons">
+				<p>STEM II</p>
+				<a href="STEM_II.html"><img src="images/stemIIIcon.jpg" alt="STEM II"></a> <!-- http://cdn.wonderfulengineering.com/wp-content/uploads/2014/03/engineering-images-8.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='STEM_II.html'"  />
+				</form>
+			</div><div id="icons">
+				<p>STW</p>
+				<a href="STW.html"><img src="images/stwIcon.jpg" alt="STW"></a> <!-- https://cdn.pixabay.com/photo/2016/02/19/10/12/writing-1209121_1280.jpg -->
+				<br>
+				<form>
+					<input type="button" value="Learn more" onclick="window.location.href='STW.html'"  />
+				</form>
+			</div>
 		</div>
 		
 		<footer id="footer">
@@ -90,8 +139,8 @@
 			<hr>
 			<div>
 				<p>Email: <a href="mailto:djng@wpi.edu" target="_top">djng@wpi.edu</a></p>
-				<br>
-				<p>&copy; 2017-2018 by Derek Ng</p>
+				<p>Hand-coded by Derek Ng</p>
+				<p>&copy; 2017-2018</p>
 				<br><br><br>
 			</div>
 		</footer>

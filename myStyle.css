@@ -4,6 +4,7 @@
 
 body, html {
 	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	font-family: 'lato', 'oxygen', verdana;
 	height: 100%;
 }
@@ -16,6 +17,7 @@ body, html {
 	margin: 0 0 0 0;
 	padding: 0;
 	font-family: 'open sans', 'lato', verdana;
+	z-index: 1;
 }
 
 #nav ul {
@@ -27,6 +29,7 @@ body, html {
 	top: 0;
 	left: 0;
 	background-color: #00d9ff;
+	z-index: 1;
 }
 
 #nav li {
@@ -36,6 +39,8 @@ body, html {
 	padding: 0;
 	line-height: 100%;
 	font-size: 1em;
+	-webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
 }
 
 #nav li a {
@@ -77,6 +82,8 @@ body, html {
 #nav ul ul li {
 	float: none;
 	width: 100%;
+	-webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
 }
 
 #nav ul ul li:hover {
@@ -99,31 +106,176 @@ body, html {
 
 /*page titles---------------------*/
 
-#homeTitle {
+.homeTitle {
 	background-image: url("images/background.jpg");
 	height: 100%;
+	min-height: 100%;
 	background-position: 77% 60%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #ffffff;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 
-#homeTitle h1 {
+.homeTitle h1 {
 	text-align: center;
 	font-size: 3.5em;
 	padding: 20% 0% 25% 0%;
 }
 
-#title {
+.csBckgd {
+	background-image: url("images/CSWallpaper.jpg"); /*http://getwallpapers.com/wallpaper/full/e/1/e/444378.jpg*/
+	background-position: 50% 50%;
+}
+
+.humBckgd {
+	background-image: url("images/HumWallpaper.jpg"); /*http://getdrawings.com/earth-map-drawing#earth-map-drawing-61.jpg*/
+	background-position: 20% 60%;
+}
+
+.mathBckgd {
+	background-image: url("images/mathWallpaper.jpg"); /*https://questu.ca/wp-content/uploads/2017/01/math-post.jpg*/
+	background-position: 50% 50%;
+}
+
+.physBckgd {
+	background-image: url("images/physWallpaper.jpg"); /*http://getwallpapers.com/wallpaper/full/2/4/8/639672.jpg*/
+	background-position: 50% 130%;
+}
+
+.spanBckgd {
+	background-image: url("images/spanWallpaper.jpg"); /*http://www.pptbackgrounds.org/uploads/spain-flag-backgrounds-wallpapers.jpg*/
+	background-position: 15% 65%;
+}
+
+.stemIBckgd {
+	background-image: url("images/stemIWallpaper.jpg"); /*https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Alternative_Energies.jpg/1024px-Alternative_Energies.jpg*/
+	background-position: 90% 110%;
+}
+
+.stemIIBckgd {
+	background-image: url("images/stemIIWallpaper.jpg"); /*http://www.desktopimages.org/pictures/2015/0113/1/orig_79204.jpg*/
+	background-position: 50% 50%;
+}
+
+.stwBckgd {
+	background-image: url("images/pic.jpeg");
+	background-position: 50% 80%;
+}
+
+.acaBckgd {
+	background-image: url("images/acaWallpaper.jpeg");
+	background-position: 50% 90%;
+}
+
+.aboutBckgd {
+	background-image: url("images/aboutWallpaper.jpg");
+	background-position: 50% 70%;
+}
+.title {
 	width: 100%;
-	background-color: #00d9ff;
+	background-size: cover;
+	background-attachment: fixed;
 	font-size: 1.5em;
 	color: #ffffff;
 	text-align: center;
 }
 
+
+.darkenImg {
+	position: relative;
+	z-index: -1;
+	
+}
+
+.darkenImg::after {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	display: block;
+  	background-color: rgba(0, 0, 0, 0.25);
+  	
+}
+
+.darkenText h1{
+	margin: 0;
+  	font-size: 2em;
+  	text-align: center;
+  	color: white;
+  	padding-top: 50px;
+  	position: relative;
+  	z-index: 1;
+}
+
+.backimgs {
+	height: 100%;
+	background-position: 77% 60%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
 /*content------------------------*/
+
+#bigDiv {
+	margin: 5% 8% 5% 8%;
+}
+
+#icons {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	min-width: 200px;
+	margin: auto;
+}
+
+#icons p {
+	diplay: block;
+	text-align: center;
+}
+
+#icons img {
+	display: block;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 10%;
+	border-radius: 50%;
+	min-width: 100px;
+	margin: auto;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#icons img:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+input {
+	display: block;
+	margin: auto;
+	padding: 2%;
+	background-color: white;
+	border-color: gray;
+	border-width: 1px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+input:hover {
+	background-color: #aaaaaa;
+	color: white;
+	border-color: white;
+}
 
 p {
 	font-size: 1.25em;
@@ -132,19 +284,16 @@ p {
 	padding: 3% 8% 3% 8%;
 }
 	
-img {
-	min-width: 280px;
-}
-	
 h2 {
 	font-size: 3.5em;
-	padding: 5% 8% 5% 8%;
+	padding: 5% 8% 4% 8%;
 }
 
 h3 {
 	font-size: 1.5em;
 	padding: 6% 8% 1% 8%;
 	margin: 0;
+	text-align: center;
 }
 
 .homeP {
@@ -158,6 +307,10 @@ h3 {
     overflow: hidden;
 }
 
+.pRight {
+	background-color: #aaaaaa;
+}
+
 .pLeft h2, .pRight h2 {
 	font-size: 2.5em;
 	text-align: center;
@@ -169,6 +322,7 @@ h3 {
 	padding: 3%;
     float: right;
     width: 40%;
+    min-width: 280px;
 }
 
 .pLeft iframe {
@@ -189,22 +343,15 @@ h3 {
 	min-width: 280px;
 }
 
-.pRight, #classList {
-    background-color: #aaaaaa;
-}
-
 .pRight img {
     padding: 3%;
     float: left;
     width: 40%;
+    min-width: 280px;
 }
 
-.pRight ul{
+.pLeft ul{
 	list-style-type: circle;
-}
-
-#classList {
-	margin: 0;
 }
 
 ul {
@@ -254,6 +401,7 @@ a:hover, a:active {
 	float: left;
 	width: 20%;
 	margin: 0 6% 0 6%;
+	min-width: 280px;
 }
 
 #footer ul {

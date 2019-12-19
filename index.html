@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Derek Ng | Home</title>
-		<link rel="stylesheet" type="text/css" href="Style.css">
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
@@ -32,18 +32,49 @@
 			</div>
 		</nav>
 			
-		<div id="homeTitle">
-			<h1>Welcome!</h1>
+		<div class="homeTitle">
+			<h1>Welcome!<br><img src="images/arrow.png"></h1>
 		</div>
 		
 		<div>	
 			<h2>Hello.</h2>
-			<p class="homeP">Welcome to my website. I am Derek Ng, and I am from Littleton, MA. I am part of the Class of 2019 at the Massachusetts Academy of Math and Science. 
+			<p class="homeP">Welcome to my website. I am Derek Ng, and I am from Littleton, Massachusetts. I am part of the Class of 2019 at the Massachusetts Academy of Math and Science. 
 			Mass Academy is a very small public high school for gifted students that is a part of WPI in Worcester, MA. The school only has about 100 students total.
 			If you have any questions about me or the academy, please feel free to email me at <a href="mailto:djng@wpi.edu" target="_top">djng@wpi.edu</a>.</p>
-			<p class="homeP"><a href="aboutMe.html">Learn more about me.</a></p>
-			<p class="homeP"><a href="academics.html">Learn more about the Academy.</a></p>
-			<p class="homeP"><a href="https://www.wpi.edu" target="_blank">Learn more about WPI.</a></p>
+			
+			<div id="bigDiv">
+				<div id="icons">
+					<p>About Me</p>
+					<a href="aboutMe.html"><img src="images/me.jpg" alt="Me"></a>
+					<br>
+					<form>
+						<input type="button" value="Learn more" onclick="window.location.href='aboutMe.html'" />
+					</form>
+				</div><div id="icons">
+					<p>Classes</p>
+					<a href="academics.html"><img src="images/library.JPG" alt="Mass Academy"></a>
+					<br>
+					<form>
+						<input type="button" value="Learn more" onclick="window.location.href='academics.html'" />
+					</form>
+				</div><div id="icons">
+					<p>Mass Academy</p>
+					<a href="http://www.massacademy.org/" target="_blank"><img src="images/MAMSLogo.png" alt="MAMS"></a>
+					<br>
+					<form>
+						<input type="button" value="Learn more" onclick="window.open('http://www.massacademy.org/')" />
+					</form>
+				</div><div id="icons">
+					<p>WPI</p>
+					<a href="https://www.wpi.edu/" target="_blank"><img src="images/WPILogo.png" alt="WPI"></a>
+					<br>
+					<form>
+						<input type="button" value="Learn more" onclick="window.open('https://www.wpi.edu/')" />
+					</form>
+				</div>
+				
+			</div>
+			
 			<br><br><br><br><br>			
 		</div>
 		
@@ -70,8 +101,8 @@
 			<hr>
 			<div>
 				<p>Email: <a href="mailto:djng@wpi.edu" target="_top">djng@wpi.edu</a></p>
-				<br>
-				<p>&copy; 2017-2018 by Derek Ng</p>
+				<p>Hand-coded by Derek Ng</p>
+				<p>&copy; 2017-2018</p>
 				<br><br><br>
 			</div>
 		</footer>
