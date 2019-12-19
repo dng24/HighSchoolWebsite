@@ -9,3 +9,4 @@ http://users.wpi.edu/~djng/STEM_I.html
 http://users.wpi.edu/~djng/STEM_II.html
 http://users.wpi.edu/~djng/STW.html
 http://users.wpi.edu/~djng/aboutMe.html
+http://users.wpi.edu/~djng/sisp.html

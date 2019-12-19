@@ -83,7 +83,7 @@ body, html {
 	left: 0;
 	background: #afafaf;
 	padding: 0;
-	width: 140%;
+	width: 160%;
 }
 
 #nav ul ul li {
@@ -94,7 +94,7 @@ body, html {
 }
 
 #nav ul ul a {
-	line-height: 120%;
+	line-height: 100%;
 	padding: 1em 1em;
 	border-color: #afafaf;
 }
@@ -171,6 +171,11 @@ body, html {
 .aboutBckgd {
 	background-image: url("images/aboutWallpaper.jpg");
 	background-position: 50% 70%;
+}
+
+.sispBckgd {
+	background-image: url("images/sispWallpaper.png");
+	background-position: 60% 60%;
 }
 
 @media handheld, only screen and (max-width: 769px) {

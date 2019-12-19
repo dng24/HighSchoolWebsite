@@ -158,6 +158,81 @@ var sess52End = new Date(2019, 0, 7, 15, 45);
 var sess53Beg = new Date(2019, 0, 11, 0, 10);
 var sess53End = new Date(2019, 0, 11, 1, 40);
 
+var sess54Beg = new Date(2019, 2, 2, 16, 30);
+var sess54End = new Date(2019, 2, 2, 17, 30);
+
+var sess55Beg = new Date(2019, 2, 2, 20, 15);
+var sess55End = new Date(2019, 2, 2, 23, 10);
+
+var sess56Beg = new Date(2019, 2, 4, 18, 30);
+var sess56End = new Date(2019, 2, 5, 0, 0);
+
+var sess57Beg = new Date(2019, 2, 5, 9, 30);
+var sess57End = new Date(2019, 2, 5, 10, 45);
+
+var sess58Beg = new Date(2019, 2, 5, 11, 00);
+var sess58End = new Date(2019, 2, 5, 13, 00);
+
+var sess59Beg = new Date(2019, 2, 5, 15, 25);
+var sess59End = new Date(2019, 2, 5, 17, 15);
+
+var sess60Beg = new Date(2019, 2, 5, 18, 15);
+var sess60End = new Date(2019, 2, 5, 23, 50);
+
+var sess61Beg = new Date(2019, 2, 6, 0, 40);
+var sess61End = new Date(2019, 2, 6, 1, 0);
+
+var sess62Beg = new Date(2019, 2, 6, 9, 30);
+var sess62End = new Date(2019, 2, 6, 10, 55);
+
+var sess63Beg = new Date(2019, 2, 6, 12, 00);
+var sess63End = new Date(2019, 2, 6, 13, 40);
+
+var sess64Beg = new Date(2019, 2, 6, 14, 15);
+var sess64End = new Date(2019, 2, 6, 18, 45);
+
+var sess65Beg = new Date(2019, 2, 6, 19, 15);
+var sess65End = new Date(2019, 2, 6, 23, 20);
+
+var sess66Beg = new Date(2019, 2, 7, 0, 00);
+var sess66End = new Date(2019, 2, 7, 1, 05);
+
+var sess67Beg = new Date(2019, 2, 7, 9, 15);
+var sess67End = new Date(2019, 2, 7, 10, 00);
+
+var sess68Beg = new Date(2019, 2, 7, 10, 20);
+var sess68End = new Date(2019, 2, 7, 18, 05);
+
+var sess69Beg = new Date(2019, 2, 7, 20, 45);
+var sess69End = new Date(2019, 2, 8, 3, 00);
+
+var sess70Beg = new Date(2019, 2, 8, 9, 45);
+var sess70End = new Date(2019, 2, 8, 11, 45);
+
+var sess71Beg = new Date(2019, 2, 8, 20, 00);
+var sess71End = new Date(2019, 2, 8, 22, 40);
+
+var sess72Beg = new Date(2019, 2, 8, 23, 40);
+var sess72End = new Date(2019, 2, 9, 0, 30);
+
+var sess73Beg = new Date(2019, 2, 9, 8, 15);
+var sess73End = new Date(2019, 2, 9, 8, 45);
+
+var sess74Beg = new Date(2019, 2, 9, 8, 50);
+var sess74End = new Date(2019, 2, 9, 9, 15);
+
+var sess75Beg = new Date(2019, 2, 9, 9, 45);
+var sess75End = new Date(2019, 2, 9, 10, 00);
+
+var sess76Beg = new Date(2019, 2, 9, 11, 55);
+var sess76End = new Date(2019, 2, 9, 12, 30);
+
+var sess77Beg = new Date(2019, 2, 10, 12, 45);
+var sess77End = new Date(2019, 2, 10, 15, 30);
+
+var sess78Beg = new Date(2019, 2, 10, 17, 45);
+var sess78End = new Date(2019, 2, 10, 21, 40);
+
 var log = [
   [sess1Beg, sess1End],
   [sess2Beg, sess2End],
@@ -211,7 +286,32 @@ var log = [
   [sess50Beg, sess50End],
   [sess51Beg, sess51End],
   [sess52Beg, sess52End],
-  [sess53Beg, sess53End]
+  [sess53Beg, sess53End],
+  [sess54Beg, sess54End],
+  [sess55Beg, sess55End],
+  [sess56Beg, sess56End],
+  [sess57Beg, sess57End],
+  [sess58Beg, sess58End],
+  [sess59Beg, sess59End],
+  [sess60Beg, sess60End],
+  [sess61Beg, sess61End],
+  [sess62Beg, sess62End],
+  [sess63Beg, sess63End],
+  [sess64Beg, sess64End],
+  [sess65Beg, sess65End],
+  [sess66Beg, sess66End],
+  [sess67Beg, sess67End],
+  [sess68Beg, sess68End],
+  [sess69Beg, sess69End],
+  [sess70Beg, sess70End],
+  [sess71Beg, sess71End],
+  [sess72Beg, sess72End],
+  [sess73Beg, sess73End],
+  [sess74Beg, sess74End],
+  [sess75Beg, sess75End],
+  [sess76Beg, sess76End],
+  [sess77Beg, sess77End],
+  [sess78Beg, sess78End]
 ];
 
 //Calls functions to generate HTML page
