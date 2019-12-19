@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+/*CSS file created with assistance from https://www.w3schools.com/css/default.asp.*/
+
+body {
+	margin: 0 0 0 0;
+	font-family: 'lato', 'oxygen', verdana;
+}
+
+/*nav bar------------------------------*/
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family: 'open sans', 'lato', verdana;
+}
+
+#nav ul {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0 0 0 4%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #00d9ff;
+}
+
+#nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	font-size: 1em;
+}
+
+#nav li a {
+	display: block;
+	padding: 1em;
+	color: #ffffff;
+	text-decoration: none;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #00d9ff;
+}
+
+#nav li:hover {
+	background-color: #00bcdd;
+}
+
+#nav li a:active {
+	color: white;
+	background-color: #00869d;
+}
+
+#nav li a:hover {
+	color: #606060;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #ffffff;
+}
+
+#nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #afafaf;
+	padding: 0;
+	width: 140%;
+}
+
+#nav ul ul li {
+	float: none;
+	width: 100%;
+}
+
+#nav ul ul li:hover {
+	background-color: #00bcdd;
+}
+
+#nav ul ul a {
+	line-height: 120%;
+	padding: 1em 1em;
+	border-color: #afafaf;
+}
+
+#nav ul ul li:active {
+	background-color: #00869d;
+}
+
+#nav ul li:hover > ul {
+	display: block;
+}
+
+
+/*page titles---------------------*/
+
+#homeTitle {
+	width: 100%;
+	background-image: url("images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+#homeTitle h1 {
+	text-align: center;
+	font-size: 3.5em;
+	padding: 20% 0% 25% 0%
+}
+
+#title {
+	width: 100%;
+	background-color: #00d9ff;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: center;
+}
+
+/*content------------------------*/
+
+p {
+	font-size: 1.25em;
+	line-height: 150%;
+	margin: 0;
+	padding: 3% 8% 3% 8%;
+	}
+	
+img {
+	min-width: 280px;
+}
+	
+h2 {
+	font-size: 2.5em;
+	padding: 5% 8% 5% 8%;
+}
+
+h3 {
+	font-size: 1.5em;
+	padding: 6% 8% 1% 8%;
+	margin: 0;
+}
+
+.pLeft, .pRight {
+	padding: 3% 5% 3% 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.pLeft h2, .pRight h2 {
+	font-size: 2.5em;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.pLeft img {
+	padding: 3%;
+    float: right;
+    width: 40%;
+}
+
+.pLeft iframe {
+	padding: 3%;
+    float: right;
+    width: 40%;
+    height: 315px;
+    min-width: 280px;
+    border: 0;
+    padding: 0;
+}
+
+.pLeft p, .pRight p, .pRight ul {
+    display: inline-block;
+	width: 40%;
+	height: 100%;
+	padding: 3%;
+	min-width: 280px;
+}
+
+.pRight, #classList {
+    background-color: #bebebe;
+}
+
+.pRight img {
+    padding: 3%;
+    float: left;
+    width: 40%;
+}
+
+.pRight ul{
+	list-style-type: circle;
+}
+
+#classList {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0% 8% 3% 11%;
+	margin: 0;
+}
+
+li {
+	line-height: 150%;
+	font-size: 1.25em;
+}
+
+/*links---------------------*/
+
+a:link {
+	color: #00d0f4;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #b90094;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+/*footer----------------------*/
+
+#footer {
+	width: 100%;
+	background-color: #00d9ff;
+	color: #ffffff;
+}
+
+#footer p {
+	padding: 0 0 1% 0;
+	text-align: center;
+}
+
+#footer img {
+	display: block;
+	margin: auto;
+	float: left;
+	width: 20%;
+	margin: 0 6% 0 6%;
+}
+
+#footer ul {
+	padding: 0 0 0 8%;
+	display: inline-block;
+}
+
+#footer li {
+	padding: .75%;
+	width: 100%;
+}
+
+#footer a:link {
+	color: #ffffff;
+	font-size: 1.1em;
+	line-height: 130%;
+}
+
+#footer a:visited {
+	color: #ffffff;
+}
+
+#footer a:hover {
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+#footer a:active {
+	color: #979797;
+	text-decoration: none;
+}
+
+hr {
+	width: 90%;
+	background-color: #ffffff;
+	height: 5px;
+	border: none;
+	margin: 2% 5% 3% 5%;
+}
