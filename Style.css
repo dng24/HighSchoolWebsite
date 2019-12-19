@@ -2,9 +2,10 @@
 
 /*CSS file created with assistance from https://www.w3schools.com/css/default.asp.*/
 
-body {
+body, html {
 	margin: 0 0 0 0;
 	font-family: 'lato', 'oxygen', verdana;
+	height: 100%;
 }
 
 /*nav bar------------------------------*/
@@ -96,21 +97,22 @@ body {
 	display: block;
 }
 
-
 /*page titles---------------------*/
 
 #homeTitle {
-	width: 100%;
 	background-image: url("images/background.jpg");
-	background-size: 100%;
+	height: 100%;
+	background-position: 77% 60%;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: #ffffff;
 }
 
 #homeTitle h1 {
 	text-align: center;
 	font-size: 3.5em;
-	padding: 20% 0% 25% 0%
+	padding: 20% 0% 25% 0%;
 }
 
 #title {
@@ -128,14 +130,14 @@ p {
 	line-height: 150%;
 	margin: 0;
 	padding: 3% 8% 3% 8%;
-	}
+}
 	
 img {
 	min-width: 280px;
 }
 	
 h2 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	padding: 5% 8% 5% 8%;
 }
 
@@ -143,6 +145,11 @@ h3 {
 	font-size: 1.5em;
 	padding: 6% 8% 1% 8%;
 	margin: 0;
+}
+
+.homeP {
+	padding: 1% 8% 2% 8%;
+	margin: 0 8% 0 0;
 }
 
 .pLeft, .pRight {
@@ -183,7 +190,7 @@ h3 {
 }
 
 .pRight, #classList {
-    background-color: #bebebe;
+    background-color: #aaaaaa;
 }
 
 .pRight img {
@@ -238,6 +245,7 @@ a:hover, a:active {
 #footer p {
 	padding: 0 0 1% 0;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 #footer img {
