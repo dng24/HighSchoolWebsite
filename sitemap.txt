@@ -1,0 +1,11 @@
+﻿http://users.wpi.edu/~djng/index.html
+http://users.wpi.edu/~djng/academics.html
+http://users.wpi.edu/~djng/computerScience.html
+http://users.wpi.edu/~djng/humanities.html
+http://users.wpi.edu/~djng/math.html
+http://users.wpi.edu/~djng/physics.html
+http://users.wpi.edu/~djng/spanish.html
+http://users.wpi.edu/~djng/STEM_I.html
+http://users.wpi.edu/~djng/STEM_II.html
+http://users.wpi.edu/~djng/STW.html
+http://users.wpi.edu/~djng/aboutMe.html
